@@ -1,0 +1,13 @@
+name: Get Icons from figma
+on: repository_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Get Icons
+        uses: Zhangdroid/test-actions
+        with:
+          figma_file_key: YK9hpYJ79TRPWgvwpJlP6o
+          frame_with_icons_id: 5%3A3
