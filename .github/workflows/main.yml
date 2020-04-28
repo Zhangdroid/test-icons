@@ -11,3 +11,5 @@ jobs:
         with:
           figma_file_key: YK9hpYJ79TRPWgvwpJlP6o
           frame_with_icons_id: 5%3A3
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }} 
