@@ -7,7 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Get Icons
-        uses: mindhand-io/sync-icons-from-figma-action@v4
+        uses: mindhand-io/sync-icons-from-figma-action@v5
         with:
           figma_file_key: YK9hpYJ79TRPWgvwpJlP6o
           frame_with_icons_id: 5%3A3
